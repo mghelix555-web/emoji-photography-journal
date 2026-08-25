@@ -1,0 +1,18 @@
+{
+  "publishDate": "2026-08-25",
+  "slug": "scheduled-publishing-test",
+  "titleEn": "Scheduled Publishing Test",
+  "titleJa": "予約投稿テスト",
+  "category": "Photo Journal",
+  "readTime": "1 min read",
+  "image": "_DSC0498.JPG",
+  "summaryEn": "A test of the automatic scheduled publishing system.",
+  "summaryJa": "自動予約投稿システムのテストです。",
+  "bodyEn": [
+    "This is a test of the automatic scheduled publishing system."
+  ],
+  "bodyJa": [
+    "これは自動予約投稿システムのテストです。"
+  ],
+  "published": false
+}
