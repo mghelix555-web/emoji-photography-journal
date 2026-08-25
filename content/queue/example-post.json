@@ -1,0 +1,20 @@
+{
+  "publishDate": "2026-08-30",
+  "slug": "example-post",
+  "titleEn": "Example Title",
+  "titleJa": "サンプルタイトル",
+  "category": "Photo Journal",
+  "readTime": "3 min read",
+  "image": "_DSC0498.JPG",
+  "summaryEn": "Short English summary.",
+  "summaryJa": "短い日本語要約。",
+  "bodyEn": [
+    "First paragraph.",
+    "Second paragraph."
+  ],
+  "bodyJa": [
+    "最初の段落。",
+    "2つ目の段落。"
+  ],
+  "published": false
+}
