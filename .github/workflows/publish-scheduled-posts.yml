@@ -1,0 +1,37 @@
+name: Publish scheduled posts
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-scheduled-posts
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Publish due posts
+        run: python3 scripts/publish_scheduled_posts.py
+
+      - name: Commit and push changes
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No posts are due."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/queue journal
+          git commit -m "Publish scheduled journal posts"
+          git push origin HEAD:main
