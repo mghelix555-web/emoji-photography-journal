@@ -27,3 +27,15 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.12 });
 
 document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
+
+document.querySelectorAll('[data-language-switcher]').forEach((switcher) => {
+  const buttons = switcher.querySelectorAll('button');
+  const article = switcher.closest('.article-page');
+
+  buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+      article.dataset.language = button.dataset.language;
+      buttons.forEach((item) => item.setAttribute('aria-pressed', String(item === button)));
+    });
+  });
+});
