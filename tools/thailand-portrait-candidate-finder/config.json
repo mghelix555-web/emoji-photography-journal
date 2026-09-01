@@ -1,0 +1,60 @@
+{
+  "queries": [
+    "TFP Bangkok",
+    "portrait Bangkok",
+    "model Bangkok",
+    "photographer Bangkok",
+    "collab Bangkok",
+    "collaboration Bangkok",
+    "ถ่ายรูป กรุงเทพ",
+    "ถ่ายแบบ กรุงเทพ",
+    "หาช่างภาพ กรุงเทพ",
+    "อยากถ่ายรูป กรุงเทพ",
+    "TFP Chiang Mai",
+    "portrait Chiang Mai",
+    "model Chiang Mai",
+    "ถ่ายรูป เชียงใหม่",
+    "ถ่ายแบบ เชียงใหม่",
+    "หาช่างภาพ เชียงใหม่"
+  ],
+  "location_terms": [
+    "bangkok",
+    "กรุงเทพ",
+    "bkk",
+    "chiang mai",
+    "เชียงใหม่",
+    "thailand",
+    "ประเทศไทย"
+  ],
+  "strong_intent_terms": [
+    "tfp",
+    "collab",
+    "collaboration",
+    "model call",
+    "looking for photographer",
+    "looking for a photographer",
+    "หาช่างภาพ",
+    "ถ่ายแบบ",
+    "อยากถ่ายรูป",
+    "รับงานถ่ายแบบ"
+  ],
+  "creative_terms": [
+    "portrait",
+    "photographer",
+    "photography",
+    "model",
+    "photoshoot",
+    "photo shoot",
+    "ถ่ายรูป",
+    "ช่างภาพ",
+    "นางแบบ",
+    "นายแบบ"
+  ],
+  "minor_risk_terms": [
+    "high school",
+    "secondary school",
+    "ม.ปลาย",
+    "มัธยม",
+    "นักเรียนมัธยม"
+  ]
+}
